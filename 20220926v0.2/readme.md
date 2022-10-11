@@ -2,7 +2,7 @@
 
 镜像链接地址：https://repo.tarsier-infra.com/openEuler-RISC-V/testing/20220926/v0.2/QEMU/
 
-openEuler 22.03 RISC-V 20220926 版本共发现问题 28个，P1 0 个，P2 0 个，P3 11 个，P4 11 个，P5 2 个，其他问题均已修复，回归测试结果正常。版本整体质量较好。
+openEuler 22.03 RISC-V 20220926 版本共发现问题 28个，P1 0 个，P2 0 个，P3 11 个，P4 11 个，P5 2 个。
 
 ## 缺陷汇总：
 
