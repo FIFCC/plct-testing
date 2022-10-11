@@ -2,7 +2,7 @@
 
 镜像链接地址：https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/preview/openEuler-22.03-V1-riscv64/QEMU/
 
-openEuler 22.03 RISC-V 20220926 版本共发现问题 26个，P1 0 个，P2 0 个，P3 11 个，P4 12 个，P5 3 个。
+openEuler 22.03 RISC-V 20220926 版本共发现问题 27个，P1 0 个，P2 0 个，P3 12 个，P4 12 个，P5 3 个。
 
 ## 缺陷汇总：
 
@@ -17,6 +17,7 @@ openEuler 22.03 RISC-V 20220926 版本共发现问题 26个，P1 0 个，P2 0 �
 |             |      |            |                                | 打不开b站          |                            |
 |             |      |            |                                | 不能进入阅读模式   |                            |
 | vlc         |      |            | 无显卡环境（QEMU, VisionFive），视频播放黑屏，需手工更改视频输出方式X11                 |                    |                            |
+|             |      | |            视频及音频播放无声音                 |                     |                            |
 |             |      |            | 播放卡顿                       |                    |                            |
 |             |      |            | 文件标题显示错误               |                    |                            |
 |             |      |            |                                | 字幕显示错误       |                            |
