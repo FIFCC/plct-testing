@@ -2,7 +2,7 @@
 
 镜像链接地址：https://repo.tarsier-infra.com/openEuler-RISC-V/testing/20220926/v0.2/QEMU/
 
-openEuler 22.03 RISC-V 20220926 版本共发现问题 28个，P1 0 个，P2 0 个，P3 11 个，P4 11 个，P5 2 个。
+openEuler 22.03 RISC-V 20220926 版本共发现问题 26个，P1 0 个，P2 0 个，P3 11 个，P4 12 个，P5 3 个。
 
 ## 缺陷汇总：
 
@@ -22,7 +22,9 @@ openEuler 22.03 RISC-V 20220926 版本共发现问题 28个，P1 0 个，P2 0 �
 |             |      |            |                                | 字幕显示错误       |                            |
 | gimp        |      |            |                                |                    | 无法打开使用手册           |
 | thunderbird |      |            |                                |                    | 无法修改语言为英语外的语言 |
+|             |      |            |                                | 无法保存邮件内容为样例   |                      |
 | chromuim    |      |            |                                | 谷歌账号数据同步失败   |                            |
+|             |      |            |                                |                     | 命令行启动需添加—browser |
 | xfce        |      |            | 自动锁屏无法解锁（QEMU，VisionFive）               |                    |                            |
 |             |      |            | 应用程序查找器无法查看历史命令 |                    |                            |
 |             |      |            | 改伸缩比例                     |                    |                            |
