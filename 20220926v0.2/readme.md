@@ -1,6 +1,6 @@
 ## 20220926版本oe镜像，各软件测试用例及缺陷
 
-镜像链接地址：https://repo.tarsier-infra.com/openEuler-RISC-V/testing/20220926/v0.2/QEMU/
+镜像链接地址：https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/preview/openEuler-22.03-V1-riscv64/QEMU/
 
 openEuler 22.03 RISC-V 20220926 版本共发现问题 26个，P1 0 个，P2 0 个，P3 11 个，P4 12 个，P5 3 个。
 
