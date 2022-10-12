@@ -1,8 +1,20 @@
-## 20220926版本oe镜像，各软件测试用例及缺陷
+## 20220926版本测试说明
 
-镜像链接地址：https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/preview/openEuler-22.03-V1-riscv64/QEMU/
+# 1.测试目的
+本次测试为功能测试，主要目的为了验证软件各项基本功能是否完好，符合用户使用要求。同时对0922版本所测试出的缺陷进行回归测试，验证缺陷是否继续存在。
 
-openEuler 22.03 RISC-V 20220926 版本共发现问题 27个，P1 0 个，P2 0 个，P3 12 个，P4 12 个，P5 3 个。
+# 2.测试前提
+本次0926版本共有两版镜像文件，其中第二版较于第一版修复了音频以及脚本启动问题，本次测试以第二版镜像文件为标准进行测试。
+
+镜像目录地址：https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20220926/v0.2/QEMU/
+
+本次测试所使用文件为：[fw_payload_oe_qemuvirt.elf](https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20220926/v0.2/QEMU/fw_payload_oe_qemuvirt.elf),[openeuler-qemu-xfce.qcow2.tar.zst](https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20220926/v0.2/QEMU/openeuler-qemu-xfce.qcow2.tar.zst),[start_vm_xfce.sh](https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20220926/v0.2/QEMU/start_vm_xfce.sh)。
+
+# 3.测试方法
+本次测试以各项软件的帮助手册作为参考进行了功能测试。
+
+# 4测试结果
+本次测试openEuler 22.03 RISC-V 20220926 版本共发现问题 27个，P1 0 个，P2 0 个，P3 12 个，P4 12 个，P5 3 个。
 
 ## 缺陷汇总：
 
@@ -13,11 +25,11 @@ openEuler 22.03 RISC-V 20220926 版本共发现问题 27个，P1 0 个，P2 0 �
 |             |      |            | 无法停止下载                  |                    |                            |
 |             |      |            | 安装报错                     |                      |                           |
 |             |      |            | 下载项显示空白                   |                            |
+|             |      |            | 安装报错                   |                            |
 |             |      |            |                                | 数据不能同步                           |
 |             |      |            |                                | 打不开b站          |                            |
 |             |      |            |                                | 不能进入阅读模式   |                            |
 | VLC         |      |            | 无显卡环境（QEMU, VisionFive），视频播放黑屏，需手工更改视频输出方式X11                 |                    |                            |
-|             |      | |            视频及音频播放无声音                 |                     |                            |
 |             |      |            | 播放卡顿                       |                    |                            |
 |             |      |            | 文件标题显示错误               |                    |                            |
 |             |      |            |                                | 字幕列表部分显示乱码       |                            |
